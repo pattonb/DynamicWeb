@@ -3,19 +3,21 @@ body, html {
 }
 
 body {
-	background: url(http://img10.deviantart.net/9c87/i/2010/237/4/d/nujabes_wallpaper_by_nuhmocuh.jpg);
+	background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/OJ7K7B2UYI.jpg);
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	color: orange;
 	padding: 0;
 	margin: 0;
 }
 
 #topheader {
-
+	position: fixed;
 	background: #333;
 	height: 50px;
 	padding: 10px;
+	width: 100%;
+	z-index: 99;
 }
 
 #topheader h1 {
@@ -23,17 +25,28 @@ body {
 }
 
 .box {
-	width: 20%;
-	max-width: 200px;
+	width: 30%;
+	max-width: 300px;
 	height: 100px;
 	padding: 10px;
 	margin: 20px;
-	background: white;
-	color: black;
+	background: rgba(355,0,0 0.5);
+	color: #333;
+	position: relative;
+	float: right;
 }
 
 .innerbox {
+	width: 50%;
+	position: absolute;
 	border: 10px;
-	color: 248,0,0, 0.5;
+	color: rgba(248,0,0, 0.5);
 	background: blue;
+}
+
+.imgText {
+	font-size: 50px;
+	position: relative;
+	top: 55px;
+	left: 100px;
 }
