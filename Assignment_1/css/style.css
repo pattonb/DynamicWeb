@@ -1,6 +1,7 @@
+/* NAV BAR STARTS HERE */
 header {
-  height: 40px;
-  background: #000;
+  height: 40%;
+  background: #BCED91;
   color: #fff;
   padding: 30px;
 }
@@ -30,11 +31,78 @@ h1 {
   float: left;
 }
 
-#banner {
-  background: url;
-  height: 540px;
-  background-size: 100%;
+.factscontent1 {
+  margin-top: 10px;
+  height: 600px;
   
+}
+
+.factscontent1 img {
+  float: left;
+  width: 47%;
+}
+
+.factstext1 {
+  width: 50%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-left: px;
+  float: right;
+}
+
+.factscontent2 {
+  height: 600px;
+}
+
+.factscontent2 img {
+  float: right;
+  width: 48%;
+}
+
+.factstext2 {
+  width: 48%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-left: px;
+  float: left;
+}
+
+.factscontent3 {
+  height: 600px;
+}
+
+.factscontent3 img {
+  float: left;
+  width: 50%;
+}
+
+.factstext3 {
+  width: 48%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-left: px;
+  float: right;
+}
+
+.factscontent4 {
+  height: 600px;
+}
+
+.factscontent4 img {
+  float: right;
+  width: 48%;
+}
+
+.factstext4 {
+  width: 48%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-left: px;
+  float: left;
 }
 
 #sociallinks {
@@ -56,35 +124,16 @@ h1 {
 }
 
 body {
- background: url);
- background-repeat: repeat;
- background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  background: url(http://www.alternet.org/files/styles/story_image/public/story_images/shutterstock_108874103-edited.jpg);
+  background-position: center top;
 }
 
-.hiphopelementslogo {
-	background: url
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 25%;
-	height: 25vw;
-	max-height: 360px;
-	margin: auto;
-}
-
-.hiphopelementslogo2 {
-	background: url
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 25%;
-	height: 25vw;
-	max-height: 400px;
-	margin: auto;
-	display: none;
-	
-}
 
 #wrap {
- max-width: 1200px; 
+ max-width: 1900px; 
  min-width: 300px;
   margin: auto;
 }
@@ -96,19 +145,21 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1900px;
   min-width: 300px;
   margin: auto;
   font-family: arial;
   position: relative;
 }
 
+/* NAV BAR ENDS HERE */
+
 /*SLIDERS BEGIN HERE*/
 
 #slider {
-  max-width: 1000px;
+  max-width: 1900px;
   height: 55vw;
-  max-height: 550px;
+  max-height: 700px;
   position: relative;
   overflow: hidden;
   margin: auto;
@@ -124,7 +175,7 @@ main {
 }
 
 #slide1 {
-  background: url();
+  background: url(../images/slidercontentpic1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   left: 0;
@@ -181,16 +232,7 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-
-.hiphopelementslogo {
-	display: none;
 }
-
-.hiphopelementslogo2 {
-	display: block;
-}
-	
-  }
 
 .clear fix {
   clear: both;
@@ -199,10 +241,17 @@ main {
 
 /* SLIDERS ENDS HERE */
 
+/* CONTENT BEGINS HERE */
+.content-about {
+
+}
+
+
+/* CONTENT ENDS HERE */
 footer {
-	max-width: 1000px;
+	max-width: 1900px;
   height: 35px;
-  background: #dcdcdc;
+  background: #BCED91;
   color: #000;
   text-align: center;
   padding: 20px 0px;
