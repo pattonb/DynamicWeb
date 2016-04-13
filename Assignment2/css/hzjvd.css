@@ -1,0 +1,128 @@
+@import "compass/css3";
+
+// renaming these flat colours to something i can remember...
+$turquoise: #1abc9c;
+$green: #2ecc71;
+$blue: #3498db;
+$purple: #9b59b6;
+$gray: #34495e;
+$greensea: #16a085;
+$dkgreen: #27ae60;
+$dkblue: #2980b9;
+$dkpurple: #8e44ad;
+$dkgray: #2c3e50;
+$yellow: #f1c40f;
+$ornage: #e67e22;
+$red: #e74c3c;
+$clouds: #ecf0f1;
+$concrete: #95a5a6;
+$dkyellow: #f39c12;
+$dkorange: #d35400;
+$dkred: #c0392b;
+$silver: #bdc3c7;
+$asbestos: #7f8c8d;
+
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+// need box-sizing polyfill for ie7
+
+html {
+  font: 300 62.5%/1.75 'helvetica neue', sans-serif;
+}
+
+body {
+  font-size: 1.8em;
+  margin: 0 auto;
+  padding: 0;
+}
+
+// sizes will have to be adjusted depending on font
+
+h1,h2,h3,h4,h5,h6 { 
+  line-height: 1.1;
+  margin: 2.4rem 0 0.5rem; //that's right. I'm using rems.
+  font-weight: bold; // why does ie need this?
+}
+h2,h3 { letter-spacing: -1px; }
+h1 { font-size: 2.8em; letter-spacing: -2px; }
+h2 { font-size: 2.4em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+p { margin: 0; }
+
+ul, ol, table, img {
+  margin: .5em 0;
+}
+
+p+p {
+  text-indent: 1.5em;
+}
+form {
+  p+p {
+  text-indent: 0;
+  }
+}
+
+ul, ol {
+  padding: 0;
+  ul, ol {
+    padding-left: 1em;
+  }
+}
+
+table {
+  border-bottom: 1px solid #000;
+  line-height: 1.2; // playing with this...
+}
+tr {
+  border-top: 1px solid #000;
+}
+th {
+  text-align: left;
+  border-bottom: 2px solid #000;
+}
+th, td {
+  padding: .25em 1em;
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+a {
+  &:link {
+    color: #35a;
+  }
+  &:visited {
+    color: #86a;
+  }
+  &:hover {
+    color: #f00;
+  }
+  &:active {
+    color: #35d;
+  }
+}
+
+hr {
+  border-width: 1px 0 0 0;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.single { // for single column articles on blogs, magazines, etc
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em 2em 2em;
+}
+
+
