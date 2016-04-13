@@ -1,0 +1,37 @@
+@import "http://fonts.googleapis.com/css?family=Raleway:300,700";
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  background-image: url("http://i.imgur.com/ZFQEskW.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+p {
+  color: orange;
+}
+
+.reddit header {
+  margin: 2em 0;
+}
+.reddit .thumbs a {
+  margin: .25em;
+}
+.reddit .posts li {
+  padding: .5em 0;
+  border-top: 1px solid #ddd;
+}
+.reddit .posts li p + p {
+  text-indent: 0;
+}
